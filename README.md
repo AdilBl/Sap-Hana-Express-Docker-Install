@@ -54,7 +54,7 @@ sudo ./install.sh -p <URL>
 Clone the project
 
 ```bash
-  git clone git@github.com:AdilBl/Sap-Hana-Express-Docker-Install.git
+  git clone https://github.com/AdilBl/Sap-Hana-Express-Docker-Install.git
 ```
 
 Go to the project directory
