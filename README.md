@@ -88,6 +88,18 @@ Or
     docker exec -it hxecontxsa bash
 ```
 
+## Pause
+
+```bash
+    ./install.sh -s
+```
+
+Or
+
+```bash
+    docker stop hxecontxsa
+```
+
 ## Uninstallation
 
 To desinstall everything you can do
