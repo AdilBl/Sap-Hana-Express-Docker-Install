@@ -7,7 +7,7 @@ A script based on the official sap tutorial [Sap Hana Express Docker](https://li
 
 ## Docker
 
-
+You need to have Docker install in your computer and a Docker account to login and pull the sap image 
 
 ## Password
 You need to setup password for SAP HANA EXPRESS use  the following formats to create the 
@@ -54,13 +54,13 @@ sudo ./install.sh -p <URL>
 Clone the project
 
 ```bash
-  git clone https://github.com/AdilBl/Sap-hanna-expressxsa-docker-installation.git
+  git clone git@github.com:AdilBl/Sap-Hana-Express-Docker-Install.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Sap-hanna-expressxsa-docker-installation
+  cd Sap-Hana-Express-Docker-Install
 ```
 
 Install dependencies
