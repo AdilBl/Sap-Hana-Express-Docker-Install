@@ -31,7 +31,12 @@ if [ $# -eq 1 ] && [ "$1" == "-r" ]; then
     exit 0
 fi
 
-if [ "$1" != "-d" ] && [ "$1" != "-p" ] && [ "$1" != "-D" ] && [ "$1" != "-r" ]; then
+if [ $# -eq 1 ] && [ "$1" == "-s" ]; then
+    sudo docker stop hxecontxsa
+    exit 0
+fi
+
+if [ "$1" != "-d" ] && [ "$1" != "-p" ] && [ "$1" != "-D" ] && [ "$1" != "-r" ] && [ "$1" != "-s" ]; then
     echo "./install.sh -p <URL> to start sap hana OR ./install.sh -d to delete sap hana express"
     exit 1
 fi
